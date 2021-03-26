@@ -10,19 +10,18 @@ long int method(long int x)
 {
 	int a[5];
 	while (x>0)
-				{
-					if(x%10 <=3)
-								{
-									summ+=x%10;
-									x /= 10;	
-								}
-					else
-						break;
-				}	 								
+		 {
+			if(x%10 <=3)
+			        	{
+				 		summ+=x%10;
+						x /= 10;	
+					}
+			else
+				break;
+		}	 								
 	if(summ % 10 == 0)	
-								return x;
+			return x;
 }
-
 
 int main()
 {	
